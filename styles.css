@@ -1,0 +1,18 @@
+* {
+    box-sizing:border-box;    
+}
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+main {
+    width:100%;
+    margin:0px;
+}
+
+.heroImage {
+    width:100%;
+    padding:0px;
+}
