@@ -2,9 +2,15 @@
     box-sizing:border-box;    
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin:0px;
     padding:0px;
+    background-color: rgb(245,191,118);
+    font-family: sans-serif;
 }
 
 main {
@@ -12,7 +18,84 @@ main {
     margin:0px;
 }
 
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar {
+    border: 2px solid pink;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    height:100px;
+}
+
+.homeLink {
+    position:relative;
+    top: 35px;
+    margin-left: 3%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbarRight {
+    /* overflow:hidden; */
+    position:relative;
+    top: 25px;
+    float: right;
+    width: 175px;
+    margin-right: 3%;
+    background-color: rgb(245,191,118);
+    border: 2px solid greenyellow;
+}
+
+
+
+.helloSign {
+    position:relative;
+    top: 15px;
+    float:left;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid purple;
+}
+
+.shoppingCart {
+    border: 2px solid purple;
+    float:right;
+}
+
 .heroImage {
     width:100%;
     padding:0px;
+}
+
+#productName {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#companyName {
+    font-size: 12px;
+}
+
+.productParagraph {
+    margin-top: 1%;
+    margin-left: 5%;
+    width:70%;
+    border: 2px solid purple;
+}
+
+.productContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* float:left; */
 }
